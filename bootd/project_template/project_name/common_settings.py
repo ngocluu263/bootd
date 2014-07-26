@@ -7,7 +7,7 @@ BASE = Path(__file__).absolute().ancestor(2)
 
 try:
     with open(BASE.child('secrets.json')) as handle:
-        SECRETS = json.load(handle)
+        SECRETS = json.loads(handle)
 except IOError:
     SECRETS = {}
 
