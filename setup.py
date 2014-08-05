@@ -5,7 +5,7 @@ import sys
 from setuptools import setup
 from distutils.sysconfig import get_python_lib
 
-version = '1.0.7'
+version = '1.0.8'
 
 
 def fullsplit(path, result=None):
